@@ -15,10 +15,6 @@ import datetime
 import pytz
 import os
 
-#結合トピックモデルの本体となるこの部分はHatena Blogから引用
-#https://yamaguchiyuto.hatenablog.com/entry/2017/03/22/100000
-
-
 class JTM:
     def __init__(self, K, alpha, beta, max_iter, verbose=0):
         self.K=K
